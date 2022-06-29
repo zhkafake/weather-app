@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+button {
+  top: 30px;
+  border-radius: 30px;
+  background-color: rgb(162, 162, 208);
+  border: 2px solid rgb(216, 181, 187);
+  height: 40px;
+  width: 80;
+  color: aliceblue;
+  transition: all 200ms all-in-ease;
+}
+button:hover {
+  background-color: rgb(216, 181, 187);
+  border: 2px solid rgb(162, 162, 208);
+}
+
+.temperature {
+  color: rgb(216, 181, 187);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+  color: rgb(216, 181, 187);
+  font-size: 22px;
+}
+.rec {
+  padding: 10px 0px;
+  font-family: "Roboto Slab", serif;
+  color: rgb(216, 181, 187);
+}
+.input {
+  width: 80%;
+  top: 20px;
+  border-radius: 5px;
+  border: 2px solid pink;
+  font-family: "Roboto Slab", serif;
+}
+.search {
+  top: 20px;
+  border-radius: 30px;
+  background-color: rgb(162, 162, 208);
+  border: 2px solid rgb(216, 181, 187);
+  height: 40px;
+  width: 15%;
+  color: aliceblue;
+  transition: all 200ms all-in-ease;
+}
+.search:hover {
+  background-color: rgb(216, 181, 187);
+  border: 2px solid rgb(162, 162, 208);
+}
+.picked {
+  color: rgb(216, 181, 187);
+  font-family: "Dancing Script", cursive;
+  font-size: 70px;
+}
+.info {
+  color: rgb(216, 181, 187);
+  font-family: "Dancing Script", cursive;
+}
+.sun {
+  color: gold;
+}
+.currentTemperature {
+  font-family: "Roboto Slab", serif;
+  color: rgb(162, 162, 208);
+  font-size: 90px;
+}
+.add {
+  color: rgb(216, 181, 187);
+  font-family: "Roboto Slab", serif;
+  font-size: 15px;
+}
+.rain {
+  color: rgb(216, 181, 187);
+}
